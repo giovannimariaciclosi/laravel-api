@@ -26,7 +26,7 @@ class ProjectController extends Controller
             if (count($projects) == 0) {
                 return response()->json([
                     'success' => false,
-                    'error' => 'Nessun progetto fa parte di questa categoria',
+                    'error' => 'Nessun progetto fa parte di questo tipo',
                 ]);
             }
         } else {
